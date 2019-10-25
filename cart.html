@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+   
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:200,400,600&display=swap" rel="stylesheet">
+     <!--My css  -->
+     <link rel="stylesheet" href="css/style.css">
+
+    <title>Hefa Store</title>
+  </head>
+  <body>
+      <div class="container cart-header">
+            <div class="row mt-5 text-center">
+                    <div class="col">
+                      <h3>Your Cart</h3>
+                      <p>Pastikan Barang Anda Terbayar Lunas</p>
+                    </div>
+                </div>
+      </div>
+  <!-- Bread Crumb -->
+    <div class="container mt-5">
+        <nav>
+            <ol class="breadcrumb bg-transparent pl-0 cart-breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Cart Checkout</li>
+            </ol>
+        </nav>
+    </div>
+  <!-- Akhir Bread Crumb -->
+
+  <!-- Checkout -->
+
+  <section class="checkout">
+      <div class="container">
+          <div class="row justify-content-between" style="margin-bottom: 100px;">
+              <div class="col-lg-6">
+                  <h4 class="mb-4">Your Items</h4>
+                  <div class="row mb-4">
+                      <div class="col-2">
+                          <img src="img/cart/1.png" alt="">
+                      </div>
+                      <div class="col-4">
+                          <h5 class="m-0">Jeans Pupp</h5>
+                          <p class="m-0" style="color: #b7b7b7;">IDR 280.000.100</p>
+                      </div>
+                      <div class="col-4">
+                            <button type="button" class="btn btn-sm" style="background-color: #eaeaef; color:white"><i class="fas fa-minus-circle"></i></button>
+                            <span class="mx-2">20</span>
+                            <button type="button" class="btn-sm bg-success" style="color: white" ><i class="fas fa-plus-circle"></i></button>
+                      </div>
+                      <div class="col-2">
+                          <button type="button" class="btn btn-sm btn-danger" ><i class="fas fa-trash-alt"></i></button>
+                      </div>
+                  </div>
+
+                  <div class="row mb-4">
+                        <div class="col-2">
+                            <img src="img/cart/1.png" alt="">
+                        </div>
+                        <div class="col-4">
+                            <h5 class="m-0">Jeans Pupp</h5>
+                            <p class="m-0" style="color: #b7b7b7;">IDR 280.000.100</p>
+                        </div>
+                        <div class="col-4">
+                              <button type="button" class="btn btn-sm" style="background-color: #eaeaef; color:white"><i class="fas fa-minus-circle"></i></button>
+                              <span class="mx-2">20</span>
+                              <button type="button" class="btn-sm bg-success" style="color: white" ><i class="fas fa-plus-circle"></i></button>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-sm btn-danger" ><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                            <div class="col-2">
+                                <img src="img/cart/1.png" alt="">
+                            </div>
+                            <div class="col-4">
+                                <h5 class="m-0">Jeans Pupp</h5>
+                                <p class="m-0" style="color: #b7b7b7;">IDR 280.000.100</p>
+                            </div>
+                            <div class="col-4">
+                                  <button type="button" class="btn btn-sm" style="background-color: #eaeaef; color:white"><i class="fas fa-minus-circle"></i></button>
+                                  <span class="mx-2">20</span>
+                                  <button type="button" class="btn-sm bg-success" style="color: white" ><i class="fas fa-plus-circle"></i></button>
+                            </div>
+                            <div class="col-2">
+                                <button type="button" class="btn btn-sm btn-danger" ><i class="fas fa-trash-alt"></i></button>
+                            </div>
+                        </div>
+
+                        <h4 class="mb-5" style="margin-top: 100px;">Your Address</h4>
+
+                        <form action="">
+                                <div class="form-group">
+                                    <label for="address">Address</label>
+                                    <input type="text" class="form-control" id="address" placeholder="Alamat Lengkap">
+                                </div>
+                                <div class="form-group">
+                                    <label for="address2">Address II</label>
+                                    <input type="text" class="form-control" id="address2" placeholder="Alamat Tambahan">
+                                </div>
+                                <div class="form-group">
+                                    <label for="city">Kota</label>
+                                    <select class="custom-select">
+                                        <option selected>Pilih Kota</option>
+                                        <option value="1">Sukabumi</option>
+                                        <option value="2">Bogor</option>
+                                        <option value="3">Jakarta</option>
+                                        <option value="4">Bandung</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                        <label for="country">Negara</label>
+                                        <select class="custom-select">
+                                            <option selected>Pilih Negara</option>
+                                            <option value="1">Indonesia</option>
+                                            <option value="2">Singapura</option>
+                                            <option value="3">Thailand</option>
+                                        </select>
+                                    </div>
+                        </form>
+              </div>
+
+              <div class="col-lg-5">
+                  <div class="card rounded-0 checkout-detail">
+                      <div class="card-body">
+                        <h5 class="card-title">Informasi Biaya</h5>
+                        <div class="row mb-3">
+                          <div class="col">
+                              <h6 class="m-0">Jeans Papp</h6>
+                              <small class="text-muted">2 Items</small>
+                          </div>
+                          <div class="col d-flex justify-content-end">
+                            <h6 class="m-0 align align-self-center text-success">IDR 600.000.000</h6>
+                          </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col">
+                                <h6 class="m-0">Jeans Papp</h6>
+                                <small class="text-muted">2 Items</small>
+                            </div>
+                            <div class="col d-flex justify-content-end">
+                              <h6 class="m-0 align align-self-center text-success">IDR 600.000.000</h6>
+                            </div>
+                          </div>
+
+                          <hr>
+                        
+                          <div class="row mb-3">
+                              <div class="col">
+                                  <h6 class="m-0">Courier</h6>
+                                  <small class="text-muted">JNT Express</small>
+                              </div>
+                              <div class="col d-flex justify-content-end">
+                                <h6 class="m-0 align align-self-center text-success">IDR 10.000.000</h6>
+                              </div>
+                            </div>
+                          
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <h6 class="m-0">Tax</h6>
+                                    <small class="text-muted">Negara 2,5%</small>
+                                </div>
+                                <div class="col d-flex justify-content-end">
+                                  <h6 class="m-0 align align-self-center text-success">IDR 25.000</h6>
+                                </div>
+                              </div>
+
+                              <div class="row mb-3">
+                                  <div class="col">
+                                      <h6 class="m-0">Eid Promo</h6>
+                                      <small class="text-muted">Discount 10%</small>
+                                  </div>
+                                  <div class="col d-flex justify-content-end">
+                                    <h6 class="m-0 align align-self-center text-danger">- IDR 14.000.000</h6>
+                                  </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col">
+                                        <h6 class="m-0">Total Harga</h6>
+                                    </div>
+                                    <div class="col d-flex justify-content-end">
+                                      <h6 class="m-0 align align-self-center text-primary">IDR 1.000.000.000</h6>
+                                    </div>
+                                  </div>
+                      </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col ml-2">
+                          <button type="button" class="btn btn-block" style="background-color: #eaeaef; color: #adadaa">Cancel</button>
+                        </div>
+                        <div class="col mr-2">
+                          <button type="button" class="btn btn-block btn-warning text-white"data-toggle="modal" data-target="#checkoutmodal">Checkout</button>
+                        </div>
+                      </div>
+
+                    
+
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+  <!-- Akhir Checkout -->
+
+  <!-- Modal -->
+  <div class="modal fade checkout-modal-succsess" id="checkoutmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        
+        <div class="modal-body text-center">
+          <img src="img/social/ic_succses.png" class="mb-5">
+          <h3>Checkout Berhasi !</h3>
+          <p>Barang Anda Akan Sampai dalam <br> Beberapa Hari</p>
+          <button type="button" class="btn btn-success text-white mt-3" data-dismiss="modal">Home</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <!-- footer -->
+
+  <footer class="border-top p-5">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-1">
+          <img src="img/social/logo.png" alt="">
+        </div>
+        <div class="col-4 text-right">
+          <a href="">
+              <img src="img/social/fb.png">
+          </a>
+          <a href="">
+            <img src="img/social/twitter.png">
+          </a>
+          <a href="">
+            <img src="img/social/ig.png" alt="">
+          </a>
+          
+        </div>
+
+      </div>
+      <div class="row mt-3 justify-content-between">
+        <div class="col-5">
+          <p>All Rights Reserved By Hefa-Store Copy Right, 2019</p>
+        </div>
+        <div class="col-6">
+            <nav class="nav justify-content-end text text-uppercase">
+                <a class="nav-link active" href="#">Jobs</a>
+                <a class="nav-link" href="#">Developers</a>
+                <a class="nav-link" href="#">Terms</a>
+                <a class="nav-link pr-0" href="#">Privacy Policy</a>
+              </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/all.js"></script>
+  </body>
+</html> 
+
